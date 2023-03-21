@@ -7,7 +7,7 @@ function App() {
       <div className='border'>
         <nav className='container mx-auto py-5'>
           <h1 className='text-xl font-black'>
-            <a href='/'>
+            <a href='#/'>
               HowToBase64
             </a>
           </h1>
@@ -23,7 +23,7 @@ function App() {
             <div className='w-full py-3'>
               <ul>
                 <li>
-                  <a href='/#/converting-video-to-image'>Converting video to image</a>
+                  <a href='#/converting-video-to-image'>Converting video to image</a>
                 </li>
               </ul>
             </div>
