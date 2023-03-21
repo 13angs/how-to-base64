@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import VideoToImg from './pages/video-to-img/video-to-img';
 import reportWebVitals from './reportWebVitals';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import {RouterProvider, createHashRouter} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App/>,
